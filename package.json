@@ -1,0 +1,24 @@
+{
+  "name": "@benjstephenson/typed-examples-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benjstephenson/typed-examples-ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/benjstephenson"
+  },
+  "scripts": {
+    "compile": "tsc --extendedDiagnostics -p .",
+    "prepare": "husky install"
+  },
+  "author": "Benji Stephenson",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.2"
+  }
+}
